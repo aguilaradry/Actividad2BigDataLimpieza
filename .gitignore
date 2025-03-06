@@ -5,6 +5,16 @@ __pycache__/
 
 # C extensions
 *.so
+# Ignorar archivos en la máquina local
+src/bigdata/static/db/*.sqlite3
+src/bigdata/static/xlsx/*.xlsx
+src/bigdata/static/auditoria/*.txt
+src/bigdata/static/db/*.db
+
+# Pero permitirlos en GitHub Actions
+!src/bigdata/static/db/*.db
+!src/bigdata/static/xlsx/*.xlsx
+!src/bigdata/static/auditoria/*.txt
 
 # Distribution / packaging
 .Python
