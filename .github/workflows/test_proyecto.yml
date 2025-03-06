@@ -27,13 +27,15 @@ jobs:
         run: pip install --upgrade pip
       - name: paso4 - instalar dependencias
         run: pip install -e .                
-      - name: paso5 - Ejecutar script
+      - name: paso5 - Ejecutar script Actividad 1
+        run:  python src/bigdata/ingestion.py
+      - name: paso5 - Ejecutar script Actividad 2
         run:  python src/bigdata/ingestion.py
    
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: generación de los archivos de la evidencia1
+          commit_message: generación de los archivos de la evidencia2
           commit_user_name: Adriana Aguilar [GitHub Actions]
           commit_user_email: adriana.aguilar@est.iudigital.edu.co
           commit_author: Adriana Aguilar <adriana.aguilar@est.iudigital.edu.co>
