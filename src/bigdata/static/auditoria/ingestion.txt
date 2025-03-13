@@ -1,5 +1,5 @@
- Auditoría de Ingesta - 2025-03-13 14:56:11
+ Auditoría de Ingesta - 2025-03-13 15:13:25
 ==============================================
-Registros obtenidos de la API: 1000
-Registros en la base de datos: 1000
+Registros obtenidos de la API: 100
+Registros en la base de datos: 100
 Los registros coinciden correctamente.
