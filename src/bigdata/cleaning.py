@@ -26,7 +26,6 @@ class DataCleaning:
 
     def ensuciar_datos(self, df):
         # Introduce errores en los datos para simular problemas de calidad 
-
         df_dirty = df.copy()
 
         # Duplicar registros
@@ -51,7 +50,7 @@ class DataCleaning:
         total_registros = len(df)
         total_nulos = df.isnull().sum()
         total_duplicados = df.duplicated().sum()
-        informacion = df.info()
+        tipo_datos = df.dtypes.to_string()
         resumen = df.describe(include="all")
 
         with open(self.analysis_path, "w", encoding="utf-8") as f:
@@ -62,7 +61,7 @@ class DataCleaning:
             f.write("Valores nulos por columna:\n")
             f.write(f"{total_nulos}\n\n")
             f.write("Información general:\n")
-            f.write(f"{informacion}\n\n")
+            f.write(f"{tipo_datos}\n\n")
             f.write("Resumen estadístico:\n")
             f.write(f"{resumen}\n")
 
