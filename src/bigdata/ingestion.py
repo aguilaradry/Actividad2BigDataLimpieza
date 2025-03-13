@@ -66,7 +66,7 @@ class Ingestion:
 
         # Insertar datos con conversión segura
         cursor.executemany("""
-            INSERT OR REPLACE INTO videojuegos (id, nombre, genero, desarrolladores, publicadores, fechas_lanzamiento)
+            INSERT OR REPLACE INTO videojuegos (id, nombre, genero, desarrolladores, publicadores, fecha_lanzamiento)
             VALUES (:id, :nombre, :genero, :desarrolladores, :publicadores, :fecha_lanzamiento)
         """, [{k: v if v is not None else "Desconocido" for k, v in game.items()} for game in datos])
 
