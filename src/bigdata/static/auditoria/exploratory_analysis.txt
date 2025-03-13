@@ -1,0 +1,36 @@
+Análisis Exploratorio de Datos Sucios
+==================================================
+Total de registros: 110
+Total de duplicados: 10
+Valores nulos por columna:
+id                   0
+nombre               0
+genero               0
+desarrolladores      5
+publicadores         0
+fecha_lanzamiento    0
+dtype: int64
+
+Información general:
+id                    int64
+nombre               object
+genero               object
+desarrolladores      object
+publicadores         object
+fecha_lanzamiento    object
+
+Resumen estadístico:
+                id           nombre  ... publicadores fecha_lanzamiento
+count   110.000000              110  ...          110               110
+unique         NaN              100  ...           88                84
+top            NaN  #KillAllZombies  ...       Korion  January 24, 2019
+freq           NaN                2  ...            3                 3
+mean     48.436364              NaN  ...          NaN               NaN
+std      29.266108              NaN  ...          NaN               NaN
+min       1.000000              NaN  ...          NaN               NaN
+25%      23.250000              NaN  ...          NaN               NaN
+50%      48.500000              NaN  ...          NaN               NaN
+75%      72.750000              NaN  ...          NaN               NaN
+max     100.000000              NaN  ...          NaN               NaN
+
+[11 rows x 6 columns]
