@@ -26,7 +26,7 @@ class Ingestion:
             data = response.json()
             
             juegos_procesados = []
-            for game in data[:20]:  # Limitamos a 20 juegos
+            for game in data[:1000]:  # Limitamos a 1000 juegos
                 juegos_procesados.append({
                     "id": game.get("id", "N/A"),
                     "nombre": str(game.get("name", "Desconocido")),  
@@ -60,14 +60,14 @@ class Ingestion:
                 genero TEXT,
                 desarrolladores TEXT,
                 publicadores TEXT,
-                fechas_lanzamiento TEXT
+                fecha_lanzamiento TEXT
             )
         """)
 
         # Insertar datos con conversión segura
         cursor.executemany("""
             INSERT OR REPLACE INTO videojuegos (id, nombre, genero, desarrolladores, publicadores, fechas_lanzamiento)
-            VALUES (:id, :nombre, :genero, :desarrolladores, :publicadores, :fechas_lanzamiento)
+            VALUES (:id, :nombre, :genero, :desarrolladores, :publicadores, :fecha_lanzamiento)
         """, [{k: v if v is not None else "Desconocido" for k, v in game.items()} for game in datos])
 
         conn.commit()
