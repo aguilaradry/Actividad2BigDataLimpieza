@@ -33,7 +33,8 @@ class Ingestion:
                     "genero": ", ".join(game.get("genre", ["Desconocido"])) if isinstance(game.get("genre"), list) else str(game.get("genre", "Desconocido")),
                     "desarrolladores": ", ".join(game.get("developers", ["Desconocido"])) if isinstance(game.get("developers"), list) else "Desconocido",
                     "publicadores": ", ".join(game.get("publishers", ["Desconocido"])) if isinstance(game.get("publishers"), list) else "Desconocido",
-                    "fechas_lanzamiento": json.dumps(game.get("releaseDates", {}), ensure_ascii=False)  # Guardar fechas como JSON
+                    "fecha_lanzamiento": game.get("releaseDates", {}).get("NorthAmerica", "Desconocido")  # Solo fecha de Norteamérica
+
                 })
             
             return juegos_procesados
@@ -47,9 +48,6 @@ class Ingestion:
         os.makedirs(os.path.dirname(self.db_path), exist_ok=True)  # Asegurar que la carpeta de la BD existe
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
-
-        # Eliminar la tabla si existe
-        cursor.execute("DROP TABLE IF EXISTS videojuegos")
 
         # Crear la tabla si no existe
         cursor.execute("""
