@@ -77,20 +77,21 @@ class DataCleaning:
         df_cleaned.drop_duplicates()
 
         # Reemplazar valores nulos en columna 'desarrolladores' con "Desconocido"
-        df_cleaned["desarrolladores"].fillna("Desconocido", inplace=True)
+        df_cleaned["desarrolladores"] = df_cleaned["desarrolladores"].fillna("Desconocido")
+
 
         # Normalizar nombres y géneros
         df_cleaned["nombre"] = df_cleaned["nombre"].apply(lambda x: x.capitalize().strip("#") if isinstance(x, str) else "Desconocido")
         df_cleaned["genero"] = df_cleaned["genero"].apply(lambda x: x.capitalize() if isinstance(x, str) else "Desconocido")
 
         # Limpiar y convertir la columna de fecha
-        valores_invalidos_fecha = ["TBA", "Unreleased", "Coming Soon", "-", "Unknown"]
-        df_cleaned["fecha"] = df_cleaned["fecha"].apply(lambda x: None if x in valores_invalidos_fecha else x)
+        valores_invalidos_fecha = ["TBA", "Unreleased"]
+        df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].apply(lambda x: None if x in valores_invalidos_fecha else x)
 
-        # Convertir fechas válidas a datetime
-        df_cleaned["fecha"] = pd.to_datetime(df_cleaned["fecha"], errors='coerce')
-        df_cleaned["fecha"] = pd.to_datetime(df_cleaned["fecha"], errors='coerce')  # errors='coerce' Convierte y deja NaT en valores inválidos
-        df_cleaned["fecha"] = df_cleaned["fecha"].dt.strftime("%Y-%m-%d")
+        # Convertir fecha_lanzamiento válidas a datetime
+        df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')
+        df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')  # errors='coerce' Convierte y deja NaT en valores inválidos
+        df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].dt.strftime("%Y-%m-%d")
 
         return df_cleaned
 
