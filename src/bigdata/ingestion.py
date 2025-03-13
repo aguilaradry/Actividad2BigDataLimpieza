@@ -48,6 +48,9 @@ class Ingestion:
         conn = sqlite3.connect(self.db_path)
         cursor = conn.cursor()
 
+        # Eliminar la tabla si existe
+        cursor.execute("DROP TABLE IF EXISTS videojuegos")
+
         # Crear la tabla si no existe
         cursor.execute("""
             CREATE TABLE IF NOT EXISTS videojuegos (
