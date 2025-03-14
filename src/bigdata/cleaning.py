@@ -56,7 +56,7 @@ class DataCleaning:
 
         with open(self.analysis_path, "w", encoding="utf-8") as f:
             f.write("Análisis Exploratorio de Datos Sucios\n")
-            f.write("=" * 50 + "\n")
+            f.write("=" * 70 + "\n")
             f.write(f"Total de registros: {total_registros}\n")
             f.write(f"Total de duplicados: {total_duplicados}\n")
             f.write("Valores nulos por columna:\n")
