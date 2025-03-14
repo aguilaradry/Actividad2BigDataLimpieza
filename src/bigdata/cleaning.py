@@ -90,7 +90,7 @@ class DataCleaning:
 
         # Convertir fecha_lanzamiento válidas a datetime
         df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')  # errors='coerce' Convierte y deja NaT en valores inválidos
-        df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].dt.strftime("%Y-%m-%d")
+        # df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].dt.strftime("%Y-%m-%d")
 
         return df_cleaned
 
