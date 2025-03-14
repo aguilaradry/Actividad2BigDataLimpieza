@@ -23,14 +23,14 @@ Resumen estadístico:
                 id           nombre  ... publicadores fecha_lanzamiento
 count   110.000000              110  ...          110               110
 unique         NaN              100  ...           88                84
-top            NaN  #KillAllZombies  ...       Korion  January 24, 2019
-freq           NaN                2  ...            3                 3
-mean     48.436364              NaN  ...          NaN               NaN
-std      29.266108              NaN  ...          NaN               NaN
+top            NaN  #KillAllZombies  ...        PQube        Unreleased
+freq           NaN                2  ...            4                 4
+mean     50.154545              NaN  ...          NaN               NaN
+std      28.602363              NaN  ...          NaN               NaN
 min       1.000000              NaN  ...          NaN               NaN
-25%      23.250000              NaN  ...          NaN               NaN
-50%      48.500000              NaN  ...          NaN               NaN
-75%      72.750000              NaN  ...          NaN               NaN
+25%      26.250000              NaN  ...          NaN               NaN
+50%      50.500000              NaN  ...          NaN               NaN
+75%      73.750000              NaN  ...          NaN               NaN
 max     100.000000              NaN  ...          NaN               NaN
 
 [11 rows x 6 columns]
