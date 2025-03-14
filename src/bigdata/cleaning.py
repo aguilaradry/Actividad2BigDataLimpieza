@@ -89,7 +89,9 @@ class DataCleaning:
 
         # Convertir fecha_lanzamiento válidas a datetime
         df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')  # errors='coerce' Convierte y deja NaT en valores inválidos
-        # df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].dt.strftime("%Y-%m-%d")
+
+        # Reemplazar fechas nulas con la fecha actual
+        df_cleaned["fecha_lanzamiento"].fillna(pd.to_datetime("today").normalize(), inplace=True)
 
         return df_cleaned
 
