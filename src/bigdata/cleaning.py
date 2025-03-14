@@ -105,7 +105,7 @@ class DataCleaning:
 
         with open(self.audit_path, "w", encoding="utf-8") as f:
             f.write(f" Auditoría de Limpieza - {fecha_hora}\n")
-            f.write("=" * 50 + "\n")
+            f.write("=" * 70 + "\n")
             f.write(f"Total registros originales: {len(original_df)}\n")
             f.write(f"Total registros después de ensuciar: {len(dirty_df)}\n")
             f.write(f"Total registros después de limpieza: {len(cleaned_df)}\n")
