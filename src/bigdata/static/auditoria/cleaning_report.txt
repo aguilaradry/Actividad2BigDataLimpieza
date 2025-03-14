@@ -1,40 +1,17 @@
- Auditoría de Limpieza - 2025-03-13 19:49:03
+ Auditoría de Limpieza - 2025-03-13 20:59:14
 ==================================================
 Total registros originales: 100
 Total registros después de ensuciar: 110
-Total registros después de limpieza: 100
+Total registros después de limpieza: 101
 Duplicados agregados: 10
-Duplicados eliminados: 10
+Duplicados eliminados: 9
 Valores nulos introducidos en 'desarrolladores': 5
-Valores únicos en 'desarrolladores' después de limpieza:
-['Lucid Sheep Games' 'Beatshapers' 'QubicGames' 'Skobbejak Games'
- 'Nintendo EPD' 'Blue Print' 'Desconocido' 'Ink Stains Games'
- 'Jetdogs, Zoom Out Games' 'Roman Uhilg' 'Andrade Games' 'Ink Stories'
- 'Baltoro Games' 'Millo Games' 'MidBoss' 'Batterystaple Games'
- 'Digital Bards' 'Petite Games' 'Joindots' 'Robot Gentleman'
- 'Turtle Cream, PokPoong Games' 'Tomorrow Corporation'
- 'Super PowerUp Games' 'Bitmap Bureau' 'Sobaka Studio'
- 'Nicalis, Pelikan13' 'EnjoyUp Games' 'QUByte Interactive' 'Worker Bee'
- 'Scratchwork Development' 'Ask An Enemy Studios' 'Gears for Breakfast'
- 'Mad Fellows' 'Drageus Games' 'Giant Squid Studios' 'Stately Snail'
- 'Nussoft' 'HandyGames' 'Auroch Digital' 'Tacs Games' 'Massive Monster'
- 'Climax Studios' 'Rumpus Animation' 'GrimTalin' 'Guts Department'
- 'Corecell Technology' 'Night School Studio' 'YFC Games' 'Yak'
- 'Storybird Games' 'Madmind Studio' 'Games Farm' 'Sabec'
- 'N-Fusion Interactive' 'Spike Chunsoft' 'Q-Cumber Factory' 'Cotton Game'
- 'Korion' 'Creative Assembly' '3D Clouds' 'Cattle Call'
- 'The Quantum Astrophysicists Guild' 'Kaname' 'Goonswarm' 'Neilo'
- 'Elden Pixels' 'Cyberfront Korea' 'Altairworks' 'Fallen Tree Games'
- 'GameMill Entertainment' 'Krillbite Studio' 'Anarteam'
- 'Heideland GameWork' 'Hoshikuzu KRNKRN' 'Marco Amadei'
- 'Blue Sunset Games' 'Dico' '5pb.' 'Wright Flyer Studios'
- 'Accidental Queens, Seaven Studio' 'Lunar Great Wall Studios' 'Dotemu'
- 'Exe Create' 'Sprite' 'Gabe Cuzzillo' 'aPriori Digital' 'Bigzur Games'
- 'Tikipod']
+Valores nulos en 'desarrolladores' después de limpieza:
+0
 Transformaciones aplicadas:
 - Nombres normalizados
 - Géneros ajustados
 - Valores nulos de 'desarrolladores' reemplazados por 'Desconocido'
 - Fechas convertidas a formato estándar YYYY-MM-DD
 - Tipo de dato de 'fecha_lanzamiento' antes: object
-- Tipo de dato de 'fecha_lanzamiento' después: object
+- Tipo de dato de 'fecha_lanzamiento' después: datetime64[ns]

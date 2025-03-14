@@ -5,15 +5,15 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 4,'n velore verstand,Adventure,Skobbejak Games,Skobbejak Games,2018-11-06
 5,1-2-switch,Party,Nintendo EPD,Nintendo,2017-03-03
 6,10 second run returns,"Party, racing",Blue Print,Blue Print,2018-01-25
-7,1001 ultimate mahjong 2,Puzzle,Desconocido,Nawia Games,2018-10-25
+7,1001 ultimate mahjong 2,Puzzle,Nawia Games,Nawia Games,2018-10-25
 8,12 is better than 6,Adventure,Ink Stains Games,HypeTrain Digital,2019-03-05
 9,12 labors of hercules'hercules,Adventure,"Jetdogs, Zoom Out Games",JetDogs,2019-03-24
 10,12 orbits,Party,Roman Uhilg,Roman Uhilg,2018-04-27
-11,140,Action,Desconocido,Carlsen Games,2019-01-09
+11,140,Action,Carlsen Games,Carlsen Games,2019-01-09
 12,1917: the alien invasion dx,Action,Andrade Games,Korion,2018-06-14
 13,1979 revolution: black friday,Adventure,Ink Stories,Ink Stories,2018-08-02
 14,2048 battles,Party,Baltoro Games,Baltoro Games,2019-09-20
-15,2048 cat,Puzzle,Millo Games,Millo Games,2019-12-23
+15,2048 cat,Puzzle,Desconocido,Millo Games,2019-12-23
 16,2064: read only memories integral,Adventure,MidBoss,MidBoss,2018-08-14
 17,20xx,Platformer,Batterystaple Games,Batterystaple Games,2018-07-10
 18,30-in-1 game collection,Arcade,Digital Bards,Digital Bards,2019-05-30
@@ -36,7 +36,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 35,A hat in time,Action-adventure,Gears for Breakfast,Humble Bundle,2019-10-18
 36,Aaero,"Action, rhythm",Mad Fellows,Mad Fellows,2018-12-24
 37,Aborigenus,Platformer,Drageus Games,Drageus Games,2020-01-10
-38,Abzû,Adventure,Giant Squid Studios,505 Games,2018-11-29
+38,Abzû,Adventure,Desconocido,505 Games,2018-11-29
 39,Access denied,Puzzle,Stately Snail,Ratalaika Games,2019-02-08
 40,Ace of seafood,Shoot 'em up,Nussoft,Nussoft,2018-02-22
 41,Aces of the luftwaffe: squadron,Shoot 'em up,HandyGames,"JP: Worker Bee, WW: HandyGames",2017-11-17
@@ -48,7 +48,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 47,Adventures of bertram fiddle episode 2: a bleaker predicklement,Adventure,Rumpus Animation,Chorus Worldwide,2018-11-22
 48,Adventures of elena temple,Platformer,GrimTalin,GrimTalin,2019-12-24
 49,Aegis defenders,"Tower defense, platformer",Guts Department,Humble Bundle,2018-02-08
-50,Aeternoblade,Action-adventure,Corecell Technology,PQube,2018-02-01
+50,Aeternoblade,Action-adventure,Desconocido,PQube,2018-02-01
 51,Aeternoblade ii,Action-adventure,Corecell Technology,PQube,2019-10-11
 52,Afterparty,Adventure,Night School Studio,Night School Studio,2019-10-29
 53,Ages of mages: the last keeper,Third-person shooter,YFC Games,YFC Games,2019-05-30
@@ -78,14 +78,14 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 77,Among the sleep: enhanced edition,"Survival horror, action-adventure",Krillbite Studio,Soedesco,2019-05-29
 78,Anarcute,"Action, strategy",Anarteam,"JP: Digital Bards, WW: Plug In Digital",2019-05-30
 79,Ancient rush 2,Role-playing,Heideland GameWork,Heideland GameWork,2019-02-01
-80,Angels of death,Adventure,Hoshikuzu KRNKRN,Playism,2018-06-28
-81,Angry bunnies: colossal carrot crusade,Third-person shooter,YFC Games,YFC Games,2019-09-19
+80,Angels of death,Adventure,Desconocido,Playism,2018-06-28
+81,Angry bunnies: colossal carrot crusade,Third-person shooter,Desconocido,YFC Games,2019-09-19
 82,Animal crossing: new horizons,Simulation,Nintendo EPD,Nintendo,2020-03-20
 83,Animal fight club,Strategy,Marco Amadei,Corvostudio di Amadei Marco,2019-07-26
 84,Animal rivals,"Action, platformer",Blue Sunset Games,Blue Sunset Games,2018-07-18
 85,Animated jigsaws: beautiful japanese scenery,Puzzle,Dico,Rainy Frog,2018-04-05
 86,Animated jigsaws: japanese women,Puzzle,Dico,Rainy Frog,2018-10-04
-87,Animus: stand alone,Action role-playing,Desconocido,Bandai Namco,2019-01-03
+87,Animus: stand alone,Action role-playing,Tenbirds,Bandai Namco,2019-01-03
 88,Anonymous;code,Visual novel,5pb.,5pb.,
 89,Another eden,Role-playing,Wright Flyer Studios,Wright Flyer Studios,
 90,Another lost phone: laura's story,Puzzle,"Accidental Queens, Seaven Studio",Plug In Digital,2018-04-26
@@ -97,5 +97,6 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 96,Aperion cyberstorm,Twin-stick shooter,aPriori Digital,aPriori Digital,2018-02-08
 97,Apocryph: an old-school shooter,Shooter,Bigzur Games,Bigzur Games,2019-03-14
 98,Aqua kitty udx,Shoot 'em up,Tikipod,Tikipod,2018-02-15
-99,Aqua moto racing utopia,Racing,Desconocido,Bigben Interactive,2018-04-27
-100,Aragami: shadow edition,Action-adventure,Desconocido,Merge Games,2019-02-21
+99,Aqua moto racing utopia,Racing,Zordix,Bigben Interactive,2018-04-27
+100,Aragami: shadow edition,Action-adventure,Lince Works,Merge Games,2019-02-21
+15,2048 cat,Puzzle,Millo Games,Millo Games,2019-12-23
