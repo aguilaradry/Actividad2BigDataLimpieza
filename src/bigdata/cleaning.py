@@ -112,7 +112,7 @@ class DataCleaning:
             f.write(f"Duplicados agregados: {len(dirty_df) - len(original_df)}\n")
             f.write(f"Duplicados eliminados: {len(dirty_df) - len(cleaned_df)}\n")
             f.write(f"Valores nulos introducidos en 'desarrolladores': {dirty_df['desarrolladores'].isnull().sum()}\n")
-            f.write(f"Valores nulos en 'desarrolladores' después de limpieza:\n{cleaned_df['desarrolladores'].isnull().sum()}\n")
+            f.write(f"Valores nulos en 'desarrolladores' después de limpieza: {cleaned_df['desarrolladores'].isnull().sum()}\n")
             f.write("Transformaciones aplicadas:\n")
             f.write("- Nombres normalizados\n")
             f.write("- Géneros ajustados\n")
