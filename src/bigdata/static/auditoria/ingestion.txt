@@ -1,4 +1,4 @@
- Auditoría de Ingesta - 2025-03-13 22:03:35
+ Auditoría de Ingesta - 2025-03-14 16:58:56
 ==============================================
 Registros obtenidos de la API: 100
 Registros en la base de datos: 100
