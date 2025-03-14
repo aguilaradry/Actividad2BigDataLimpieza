@@ -79,9 +79,8 @@ class DataCleaning:
         # Reemplazar valores nulos en columna 'desarrolladores' con "Desconocido"
         df_cleaned["desarrolladores"].fillna("Desconocido", inplace=True)
 
-
         # Normalizar nombres y géneros
-        df_cleaned["nombre"] = df_cleaned["nombre"].apply(lambda x: x.capitalize().strip("#") if isinstance(x, str) else "Desconocido")
+        df_cleaned["nombre"] = df_cleaned["nombre"].apply(lambda x: x.strip("#").capitalize() if isinstance(x, str) else "Desconocido")
         df_cleaned["genero"] = df_cleaned["genero"].apply(lambda x: x.capitalize() if isinstance(x, str) else "Desconocido")
 
         # Limpiar y convertir la columna de fecha
