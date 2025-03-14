@@ -1,5 +1,5 @@
- Auditoría de Limpieza - 2025-03-13 21:45:26
-==================================================
+ Auditoría de Limpieza - 2025-03-13 21:50:56
+======================================================================
 Total registros originales: 100
 Total registros después de ensuciar: 110
 Total registros después de limpieza: 101
