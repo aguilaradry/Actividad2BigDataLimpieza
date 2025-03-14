@@ -74,10 +74,10 @@ class DataCleaning:
         df_cleaned = df.copy()
 
         # Eliminar duplicados
-        df_cleaned.drop_duplicates()
+        df_cleaned.drop_duplicates(inplace=True)
 
         # Reemplazar valores nulos en columna 'desarrolladores' con "Desconocido"
-        df_cleaned["desarrolladores"] = df_cleaned["desarrolladores"].fillna("Desconocido")
+        df_cleaned["desarrolladores"].fillna("Desconocido", inplace=True)
 
 
         # Normalizar nombres y géneros
@@ -89,7 +89,6 @@ class DataCleaning:
         df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].apply(lambda x: None if x in valores_invalidos_fecha else x)
 
         # Convertir fecha_lanzamiento válidas a datetime
-        df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')
         df_cleaned["fecha_lanzamiento"] = pd.to_datetime(df_cleaned["fecha_lanzamiento"], errors='coerce')  # errors='coerce' Convierte y deja NaT en valores inválidos
         df_cleaned["fecha_lanzamiento"] = df_cleaned["fecha_lanzamiento"].dt.strftime("%Y-%m-%d")
 
@@ -101,7 +100,6 @@ class DataCleaning:
         df.to_csv(self.cleaned_csv_path, index=False)
 
     def generar_auditoria(self, original_df, dirty_df, cleaned_df):
-        """ Genera un archivo de auditoría con el impacto de la limpieza """
         print("Generando auditoría de limpieza...")
         zona_horaria = ZoneInfo("America/Bogota")
         fecha_hora = datetime.now(zona_horaria).strftime('%Y-%m-%d %H:%M:%S')
@@ -115,10 +113,14 @@ class DataCleaning:
             f.write(f"Duplicados agregados: {len(dirty_df) - len(original_df)}\n")
             f.write(f"Duplicados eliminados: {len(dirty_df) - len(cleaned_df)}\n")
             f.write(f"Valores nulos introducidos en 'desarrolladores': {dirty_df['desarrolladores'].isnull().sum()}\n")
+            f.write(f"Valores únicos en 'desarrolladores' después de limpieza:\n{cleaned_df['desarrolladores'].unique()}\n")
             f.write("Transformaciones aplicadas:\n")
             f.write("- Nombres normalizados\n")
             f.write("- Géneros ajustados\n")
-            f.write("- Valores nulos de 'desarrolladores' reemplazados\n")
+            f.write("- Valores nulos de 'desarrolladores' reemplazados por 'Desconocido'\n")
+            f.write("- Fechas convertidas a formato estándar YYYY-MM-DD\n")
+            f.write(f"- Tipo de dato de 'fecha_lanzamiento' antes: {dirty_df['fecha_lanzamiento'].dtype}\n")
+            f.write(f"- Tipo de dato de 'fecha_lanzamiento' después: {cleaned_df['fecha_lanzamiento'].dtype}\n")
 
     def ejecutar_proceso(self):
         original_df = self.cargar_datos()
