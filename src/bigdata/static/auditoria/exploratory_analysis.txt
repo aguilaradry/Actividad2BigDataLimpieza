@@ -1,7 +1,7 @@
 Análisis Exploratorio de Datos Sucios
-==================================================
+======================================================================
 Total de registros: 110
-Total de duplicados: 10
+Total de duplicados: 9
 Valores nulos por columna:
 id                   0
 nombre               0
@@ -23,13 +23,13 @@ Resumen estadístico:
                 id         nombre  ... publicadores fecha_lanzamiento
 count   110.000000            110  ...          110               110
 unique         NaN            100  ...           88                84
-top            NaN  6180 the moon  ...        PQube      May 30, 2019
-freq           NaN              2  ...            3                 3
-mean     51.072727            NaN  ...          NaN               NaN
-std      28.996270            NaN  ...          NaN               NaN
+top            NaN  6180 the moon  ...     Nintendo        Unreleased
+freq           NaN              2  ...            3                 4
+mean     49.945455            NaN  ...          NaN               NaN
+std      29.150302            NaN  ...          NaN               NaN
 min       1.000000            NaN  ...          NaN               NaN
-25%      26.250000            NaN  ...          NaN               NaN
-50%      51.500000            NaN  ...          NaN               NaN
+25%      25.250000            NaN  ...          NaN               NaN
+50%      49.500000            NaN  ...          NaN               NaN
 75%      75.750000            NaN  ...          NaN               NaN
 max     100.000000            NaN  ...          NaN               NaN
 
