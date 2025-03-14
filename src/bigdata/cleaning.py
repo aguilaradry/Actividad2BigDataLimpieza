@@ -29,16 +29,16 @@ class DataCleaning:
         # Introduce errores en los datos para simular problemas de calidad 
         df_dirty = df.copy()
 
+        # Agregar valores nulos en la columna 'desarrolladores'
+        num_nulos = int(len(df_dirty) * 0.05)  # 5% con valores nulos
+        indices_nulos = random.sample(df_dirty.index.tolist(), num_nulos)
+        df_dirty.loc[indices_nulos, "desarrolladores"] = None
+        
         # Duplicar registros
         num_duplicados = int(len(df_dirty) * 0.1)  # 10% de duplicados
         indices_duplicados = random.sample(df_dirty.index.tolist(), num_duplicados)
         df_duplicados = df_dirty.loc[indices_duplicados].copy()
         df_dirty = pd.concat([df_dirty, df_duplicados], ignore_index=True)
-
-        # Agregar valores nulos en la columna 'desarrolladores'
-        num_nulos = int(len(df_dirty) * 0.05)  # 5% con valores nulos
-        indices_nulos = random.sample(df_dirty.index.tolist(), num_nulos)
-        df_dirty.loc[indices_nulos, "desarrolladores"] = None
 
         # Guardar los datos sucios en CSV
         df_dirty.to_csv(self.dirty_csv_path, index=False)
