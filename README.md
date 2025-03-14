@@ -69,7 +69,7 @@ Este proyecto permite la extracción y almacenamiento de datos de videojuegos de
 ## Actividad 2: Preprocesamiento y Limpieza de Datos en Plataforma de Big Data en la Nube
 
 ### Descripción
-En esta actividad, se llevó a cabo un análisis exploratorio de datos (EDA) utilizando Pandas y SQLite, con el objetivo de identificar problemas de calidad en los datos. Posteriormente, se aplicaron técnicas de limpieza para corregir estos problemas.
+En esta actividad, se llevó a cabo un análisis exploratorio de datos (EDA) utilizando Pandas y SQLite, con el objetivo de identificar problemas de calidad en los datos. Posteriormente, se aplicaron técnicas de limpieza para corregir estos problemas y almacenr los datos limpios en un archivo de formato CSV.
 
 ### Objetivos
 
@@ -89,6 +89,7 @@ Se identificaron los siguientes problemas en los datos:
 - Valores nulos → Se detectaron valores nulos en la columna "desarrolladores", que fueron reemplazados por "Desconocido".
 - Errores en nombres → Se limpiaron nombres eliminando caracteres especiales como #.
 - Formato de fechas → Se convirtieron a formato YYYY-MM-DD.
+- Conversión de fechas (valores vacíos se reemplazan con la fecha actual)
 
 ### Técnicas de Limpieza Aplicadas
 - Eliminación de duplicados
@@ -96,3 +97,30 @@ Se identificaron los siguientes problemas en los datos:
 - Normalización de nombres y géneros
 - Corrección de formato en las fechas
 - Transformaciones en los tipos de datos
+
+### Reportes Generados
+- exploratory_analysis.txt → Análisis de los datos antes de la limpieza
+- cleaning_report.txt → Transformaciones aplicadas en la limpieza
+- cleaned_data.csv → Datos limpios listos para su uso
+
+### 📂 Estructura del proyecto después de la actividad 2
+.github/workflows/
+│── test_proyecto.yml               # Archivo de configuración para CI/CD
+src/bigdata/
+│── static/
+│   ├── auditoria/                   # Carpeta de reportes de auditoría
+│   │   ├── cleaning_report.txt      # Registro de la limpieza de datos
+│   │   ├── exploratory_analysis.txt # Análisis exploratorio previo a la limpieza
+│   │   ├── ingestion.txt            # Registro de la ingesta de datos
+│   ├── csv/                         # Datos en formato CSV
+│   │   ├── cleaned_data.csv         # Datos después de la limpieza
+│   │   ├── dirty_data.csv           # Datos con errores introducidos para pruebas
+│   ├── db/                          # Base de datos SQLite
+│   │   ├── ingestion.db             # Archivo de la base de datos
+│   ├── xlsx/                        # Datos en formato Excel
+│   │   ├── ingestion.xlsx           # Archivo Excel con los datos crudos
+│── cleaning.py                      # Script para la limpieza de datos
+│── ingestion.py                     # Script para la ingestión de datos
+│── .gitignore                       # Archivos ignorados por Git
+│── README.md                        # Documentación del proyecto
+│── setup.py                         # Configuración del entorno y dependencias
