@@ -1,10 +1,10 @@
- Auditoría de Limpieza - 2025-03-13 20:59:14
+ Auditoría de Limpieza - 2025-03-13 21:32:58
 ==================================================
 Total registros originales: 100
 Total registros después de ensuciar: 110
-Total registros después de limpieza: 101
+Total registros después de limpieza: 100
 Duplicados agregados: 10
-Duplicados eliminados: 9
+Duplicados eliminados: 10
 Valores nulos introducidos en 'desarrolladores': 5
 Valores nulos en 'desarrolladores' después de limpieza:
 0
