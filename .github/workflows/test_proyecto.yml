@@ -31,11 +31,13 @@ jobs:
         run:  python src/bigdata/ingestion.py
       - name: paso6 - Ejecutar script Actividad 2
         run:  python src/bigdata/cleaning.py
+      - name: paso7 - Ejecutar script Actividad 3
+        run:  python src/bigdata/enrichment.py
    
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: generación de los archivos de la evidencia2
+          commit_message: generación de los archivos de la evidencia 1, 2 y 3
           commit_user_name: Adriana Aguilar [GitHub Actions]
           commit_user_email: adriana.aguilar@est.iudigital.edu.co
           commit_author: Adriana Aguilar <adriana.aguilar@est.iudigital.edu.co>

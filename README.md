@@ -124,3 +124,66 @@ src/bigdata/
 │── .gitignore                       # Archivos ignorados por Git
 │── README.md                        # Documentación del proyecto
 │── setup.py                         # Configuración del entorno y dependencias
+
+
+## Actividad 3: Enriquecimiento de Datos en Plataforma de Big Data en la Nube
+
+### Descripción
+En esta actividad, su objetivo principal es implementar la etapa de enriquecimiento de datos a partir del dataset limpio generado en la Actividad 2.
+El proceso consiste en integrar información adicional proveniente de diferentes fuentes para complementar el conjunto de datos base y así mejorar su calidad y valor analítico.
+
+### Objetivos
+
+- Cargar el conjunto de datos limpio generado previamente.
+- Integrar información adicional desde archivos en diversos formatos (CSV, JSON, XLSX, TXT, XML, HTML), 
+  se escogió el formato CSV
+- Generar un archivo enriquecido y un reporte de auditoría que documenten el proceso.
+- Automatizar el proceso utilizando GitHub Actions.
+
+### Descripción del Proceso
+El script enrichment.py realiza las siguientes tareas:
+- Carga de Datasets:
+    - Lee el archivo cleaned_data.csv generado en la Actividad 2.
+    - Lee el archivo adicional additional_data.csv con información complementaria.
+- Enriquecimiento:
+    - Combina ambos datasets utilizando la columna id como clave.
+    - Agrega las columnas: plataforma, calificacion, tamano_gb.
+- Guardado de Resultados:
+    - Guarda el dataset enriquecido en: src/csv/enriched_data.csv.
+- Generación de Auditoría:
+    - Crea un reporte enriched_report.txt que contiene: cantidad de registros coincidentes, registros que no encontraron información adicional y transformaciones aplicadas.
+
+### Automatización
+Se incluye un Workflow de GitHub Actions ubicado en .github/workflows/test_proyecto.yml que:
+- Ejecute el script de enriquecimiento automáticamente cuando se sube código al repositorio.
+- Genere como artefactos los archivos: enriched_data.csv y enriched_report.txt
+
+### 📂 Estructura del proyecto después de la actividad 3
+
+[proyecto_integrador_edwin_sanchez_nikol_tamayo_adriana_aguilar]
+├── .github
+│   └── workflows
+│       └── test_proyecto.yml              # Workflow para la ingesta, limpieza y enriquecimiento
+├── src
+│   └── bigdata
+│       ├── static
+│       │   ├── auditoria
+│       │   │   ├── cleaning_report.txt    # Reporte de limpieza
+│       │   │   ├── exploratory_analysis.txt
+│       │   │   ├── ingestion.txt
+│       │   │   └── enrichment_report.txt  # Reporte de auditoría del enriquecimiento
+│       │   ├── csv
+│       │   │   ├── cleaned_data.csv       # Datos limpios
+│       │   │   ├── dirty_data.csv         # Datos originales
+│       │   │   ├── additional_info.csv    # Datos adicionales para enriquecer
+│       │   │   └── enriched_data.csv      # Dataset enriquecido
+│       │   ├── db
+│       │   │   └── ingestion.db
+│       │   └── xlsx
+│       │       └── ingestion.xlsx
+│       ├── cleaning.py                    # Script de limpieza de datos
+│       ├── enrichment.py                  # Script de enriquecimiento de datos
+│       └── ingestion.py                   # Script de ingesta de datos
+├── .gitignore
+├── README.md
+└── setup.py
