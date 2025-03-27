@@ -3,7 +3,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 2,Killallzombies,"Survival, third-person shooter",Beatshapers,Beatshapers,2019-01-24
 3,Racedierun,Racing,QubicGames,QubicGames,2019-08-09
 4,'n velore verstand,Adventure,Skobbejak Games,Skobbejak Games,2018-11-06
-5,1-2-switch,Party,Nintendo EPD,Nintendo,2017-03-03
+5,1-2-switch,Party,Desconocido,Nintendo,2017-03-03
 6,10 second run returns,"Party, racing",Blue Print,Blue Print,2018-01-25
 7,1001 ultimate mahjong 2,Puzzle,Nawia Games,Nawia Games,2018-10-25
 8,12 is better than 6,Adventure,Ink Stains Games,HypeTrain Digital,2019-03-05
@@ -11,7 +11,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 10,12 orbits,Party,Roman Uhilg,Roman Uhilg,2018-04-27
 11,140,Action,Carlsen Games,Carlsen Games,2019-01-09
 12,1917: the alien invasion dx,Action,Andrade Games,Korion,2018-06-14
-13,1979 revolution: black friday,Adventure,Ink Stories,Ink Stories,2018-08-02
+13,1979 revolution: black friday,Adventure,Desconocido,Ink Stories,2018-08-02
 14,2048 battles,Party,Baltoro Games,Baltoro Games,2019-09-20
 15,2048 cat,Puzzle,Millo Games,Millo Games,2019-12-23
 16,2064: read only memories integral,Adventure,MidBoss,MidBoss,2018-08-14
@@ -24,19 +24,19 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 23,6180 the moon,Platformer,"Turtle Cream, PokPoong Games",Turtle Cream,2018-05-24
 24,7 billion humans,Puzzle,Tomorrow Corporation,Tomorrow Corporation,2018-10-25
 25,8-ball pocket,Sports,Super PowerUp Games,Super PowerUp Games,2019-12-25
-26,88 heroes: 98 heroes edition,Platformer,Desconocido,Rising Star Games,2017-10-12
-27,9 monkeys of shaolin,Beat 'em up,Sobaka Studio,Buka Entertainment,2025-03-14
-28,90s super gp,Racing,"Nicalis, Pelikan13",Nicalis,2025-03-14
+26,88 heroes: 98 heroes edition,Platformer,Bitmap Bureau,Rising Star Games,2017-10-12
+27,9 monkeys of shaolin,Beat 'em up,Sobaka Studio,Buka Entertainment,2025-03-27
+28,90s super gp,Racing,"Nicalis, Pelikan13",Nicalis,2025-03-27
 29,99moves,Action,EnjoyUp Games,"JP: Starsign, WW: EnjoyUp Games",2019-02-08
 30,99seconds,Action,EnjoyUp Games,"JP: Starsign, WW: EnjoyUp Games",2019-01-04
 31,99vidas,Beat 'em up,QUByte Interactive,QUByte Interactive,2018-11-27
-32,A-kei otaku,Visual novel,Desconocido,Worker Bee,2025-03-14
+32,A-kei otaku,Visual novel,Worker Bee,Worker Bee,2025-03-27
 33,A dark room,Adventure,Scratchwork Development,Circle Entertainment,2019-04-11
 34,A duel hand disaster: trackher,Action,Ask An Enemy Studios,Ask An Enemy Studios,2019-06-10
 35,A hat in time,Action-adventure,Gears for Breakfast,Humble Bundle,2019-10-18
-36,Aaero,"Action, rhythm",Desconocido,Mad Fellows,2018-12-24
+36,Aaero,"Action, rhythm",Mad Fellows,Mad Fellows,2018-12-24
 37,Aborigenus,Platformer,Drageus Games,Drageus Games,2020-01-10
-38,Abzû,Adventure,Giant Squid Studios,505 Games,2018-11-29
+38,Abzû,Adventure,Desconocido,505 Games,2018-11-29
 39,Access denied,Puzzle,Stately Snail,Ratalaika Games,2019-02-08
 40,Ace of seafood,Shoot 'em up,Nussoft,Nussoft,2018-02-22
 41,Aces of the luftwaffe: squadron,Shoot 'em up,HandyGames,"JP: Worker Bee, WW: HandyGames",2017-11-17
@@ -55,7 +55,7 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 54,Agent a: a puzzle in disguise,Puzzle,Yak,Yak,2019-08-29
 55,Aggelos,Action role-playing,Storybird Games,PQube,2019-04-24
 56,Agony,Survival horror,Madmind Studio,Forever Entertainment,2019-10-31
-57,Air conflicts: pacific carriers,Simulation,Games Farm,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
+57,Air conflicts: pacific carriers,Simulation,Desconocido,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
 58,Air conflicts: secret wars,Simulation,Games Farm,"JP: H2 Interactive, WW: Kalypso Media",2019-03-26
 59,Air hockey,Arcade,Sabec,Sabec,2018-02-28
 60,Air mail,Simulation,N-Fusion Interactive,N-Fusion Interactive,2018-06-26
@@ -73,29 +73,129 @@ id,nombre,genero,desarrolladores,publicadores,fecha_lanzamiento
 72,Alwa’s awakening,Platformer,Elden Pixels,Elden Pixels,2018-09-27
 73,Amazing brick breaker,Arcade,Cyberfront Korea,CFK,2019-11-28
 74,Ambition of the slimes,"Turn-based strategy, role-playing",Altairworks,Flyhigh Works,2018-01-18
-75,American fugitive,Action role-playing,Fallen Tree Games,Curve Digital,2019-05-23
+75,American fugitive,Action role-playing,Desconocido,Curve Digital,2019-05-23
 76,American ninja warrior challenge,Action,GameMill Entertainment,GameMill Entertainment,2019-03-19
 77,Among the sleep: enhanced edition,"Survival horror, action-adventure",Krillbite Studio,Soedesco,2019-05-29
 78,Anarcute,"Action, strategy",Anarteam,"JP: Digital Bards, WW: Plug In Digital",2019-05-30
 79,Ancient rush 2,Role-playing,Heideland GameWork,Heideland GameWork,2019-02-01
 80,Angels of death,Adventure,Hoshikuzu KRNKRN,Playism,2018-06-28
 81,Angry bunnies: colossal carrot crusade,Third-person shooter,YFC Games,YFC Games,2019-09-19
-82,Animal crossing: new horizons,Simulation,Nintendo EPD,Nintendo,2020-03-20
+82,Animal crossing: new horizons,Simulation,Desconocido,Nintendo,2020-03-20
 83,Animal fight club,Strategy,Marco Amadei,Corvostudio di Amadei Marco,2019-07-26
 84,Animal rivals,"Action, platformer",Blue Sunset Games,Blue Sunset Games,2018-07-18
 85,Animated jigsaws: beautiful japanese scenery,Puzzle,Dico,Rainy Frog,2018-04-05
 86,Animated jigsaws: japanese women,Puzzle,Dico,Rainy Frog,2018-10-04
 87,Animus: stand alone,Action role-playing,Tenbirds,Bandai Namco,2019-01-03
-88,Anonymous;code,Visual novel,5pb.,5pb.,2025-03-14
-89,Another eden,Role-playing,Wright Flyer Studios,Wright Flyer Studios,2025-03-14
-90,Another lost phone: laura's story,Puzzle,Desconocido,Plug In Digital,2018-04-26
+88,Anonymous;code,Visual novel,5pb.,5pb.,2025-03-27
+89,Another eden,Role-playing,Wright Flyer Studios,Wright Flyer Studios,2025-03-27
+90,Another lost phone: laura's story,Puzzle,"Accidental Queens, Seaven Studio",Plug In Digital,2018-04-26
 91,Another sight,Adventure,Lunar Great Wall Studios,Lunar Great Wall Studios,2019-06-28
-92,Another world,Platformer,Desconocido,Dotemu,2018-07-09
+92,Another world,Platformer,Dotemu,Dotemu,2018-07-09
 93,Antiquia lost,Role-playing,Exe Create,Kemco,2017-11-16
-94,Aokana: four rhythm across the blue,Visual novel,Sprite,Sprite,2025-03-14
+94,Aokana: four rhythm across the blue,Visual novel,Sprite,Sprite,2025-03-27
 95,Ape out,Action,Gabe Cuzzillo,Devolver Digital,2019-02-28
 96,Aperion cyberstorm,Twin-stick shooter,aPriori Digital,aPriori Digital,2018-02-08
 97,Apocryph: an old-school shooter,Shooter,Bigzur Games,Bigzur Games,2019-03-14
 98,Aqua kitty udx,Shoot 'em up,Tikipod,Tikipod,2018-02-15
 99,Aqua moto racing utopia,Racing,Zordix,Bigben Interactive,2018-04-27
 100,Aragami: shadow edition,Action-adventure,Lince Works,Merge Games,2019-02-21
+101,Arc of alchemist,Action role-playing,Compile Heart,Idea Factory,2020-01-30
+102,Arcade classics anniversary collection,Action,Konami,Konami,2019-04-18
+103,Arcade love: plus pengo!,Action,Triangle Service,Mebius,2025-03-27
+104,Arena of valor,Multiplayer online battle arena,Tencent,Tencent,2018-09-25
+105,Ark: survival evolved,Survival,Studio Wildcard,Studio Wildcard,2018-11-30
+106,Armello,"Board game, role-playing",League of Geeks,League of Geeks,2018-09-27
+107,Arms,Fighting,Nintendo EPD,Nintendo,2017-06-16
+108,Art of balance,Puzzle,Shin'en Multimedia,Shin'en Multimedia,2018-10-04
+109,Ary and the secret of seasons,Adventure,"eXiin, Fishing Cactus",Modus Games,2025-03-27
+110,Ascendance,Platformer,Onevision Games,Onevision Games,2019-05-09
+111,Asdivine dios,Role-playing,Exe Create,Kemco,2019-07-04
+112,Asdivine hearts,Role-playing,Exe Create,Kemco,2018-04-12
+113,Asdivine hearts ii,Role-playing,Exe Create,Kemco,2019-01-24
+114,Asdivine kamura,Role-playing,Exe Create,Kemco,2019-11-07
+115,Asdivine menace,Role-playing,Exe Create,Kemco,2019-09-05
+116,Ashen,Action role-playing,A44 Games,Annapurna Interactive,2019-12-09
+117,Asphalt 9: legends,Racing,Gameloft Barcelona,Gameloft,2019-10-08
+118,Assassin's creed iii remastered,Action-adventure,Ubisoft Montreal,Ubisoft,2019-05-21
+119,Assassin's creed odyssey,Action role-playing,Ubisoft Quebec,Ubisoft,2025-03-27
+120,Assassin's creed: the rebel collection,Action role-playing,Ubisoft Montreal,Ubisoft,2019-12-06
+121,Assault android cactus+,Shooter,Witch Beam,Witch Beam,2019-03-08
+122,Asterix & obelix xxl 2: mission: las vegum,Action-adventure,Microids,Osome Studio,2018-11-29
+123,Asterix & obelix xxl 3: the crystal menhir,Action-adventure,Microids,Microids,2019-11-21
+124,Astral chain,Action,PlatinumGames,Nintendo,2019-08-30
+125,Astro bears party,Party,QubicGames,QubicGames,2017-09-28
+126,Astro duel deluxe,Shoot 'em up,Panic Button,Panic Button,2017-05-30
+127,At sundown: shots in the dark,Shooter,Mild Beast Games,Versus Evil,2019-01-22
+128,Atari flashback classics,Arcade,Atari,Atari,2018-12-13
+129,Atelier dusk series deluxe pack,Role-playing,Gust Co. Ltd.,Koei Tecmo,2020-01-14
+130,Atelier lulua: the scion of arland,Role-playing,Gust Co. Ltd.,Koei Tecmo,2019-05-21
+131,Atelier lydie & suelle: the alchemists and the mysterious paintings,Role-playing,Gust Co. Ltd.,Koei Tecmo,2018-03-27
+132,Atelier meruru: the apprentice of arland,Role-playing,Gust Co. Ltd.,Koei Tecmo,2018-12-04
+133,Atelier rorona: the alchemist of arland,Role-playing,Gust Co. Ltd.,Koei Tecmo,2018-12-04
+134,Atelier ryza: ever darkness & the secret hideout,Role-playing,Gust Co. Ltd.,Koei Tecmo,2019-10-29
+135,Atomik: rungunjumpgun,Platformer,thirtythreegames,Gambitious,2018-02-08
+136,Atomine,Role-playing,Broken Arms Games,MixedBag,2018-05-25
+137,Attack on titan 2,Hack and slash,Omega Force,Koei Tecmo,2018-03-20
+138,Attack on titan 2: final battle,Hack and slash,Omega Force,Koei Tecmo,2019-07-05
+139,Attack of the toy tanks,"Action, arcade",Desconocido,Ratalaika Games,2019-06-28
+140,Auto chess,Strategy,Dragonest,Dragonest,2025-03-27
+141,Automachef,Puzzle,Hermes Interactive,Team17,2019-07-23
+142,Aviary attorney: definitive edition,Adventure,Sketchy Logic,Vertical Reach,2020-01-30
+143,Avicii invector,Rhythm,Hello There,Wired Productions,2025-03-27
+144,Away: journey to the unexpected,Roguelike,Aurelien Regard,"JP: Circle Entertainment, WW: Playdius Entertainment",2019-02-07
+145,Awesome pea,Puzzle,Sometimes You,Sometimes You,2019-03-01
+146,Axiom verge,Metroidvania,Thomas Happ Games,BadLand Games,2017-10-05
+147,Axiom verge 2,Metroidvania,Thomas Happ Games,Thomas Happ Games,2025-03-27
+148,Ayakashi koi gikyoku: forbidden romance with mysterious spirit,Simulation,OperaHouse Corporation,Digimerce,2018-08-02
+149,Azkend 2: the world beneath,Puzzle,Desconocido,10tons,2018-01-12
+150,Azure reflections,Bullet hell,Unties,Unties,2018-08-30
+151,Azure saga: pathfinder deluxe edition,Role-playing,Toge Productions,Toge Productions,2019-03-21
+152,Azure striker gunvolt: striker pack,Action,Inti Creates,Inti Creates,2017-08-31
+153,Baba is you,Puzzle,Hempuli,Hempuli,2019-03-13
+154,Back in 1995,Survival horror,Ratalaika Games,Ratalaika Games,2019-05-23
+155,Bad dream: fever,Adventure,Forever Entertainment,Forever Entertainment,2019-03-14
+156,Bad north,"Real-time strategy, roguelike",Plausible Concept,Raw Fury,2018-08-20
+157,Bafl: brakes are for losers,Racing,Oudidon,Playdius Entertainment,2018-04-19
+158,Bake 'n switch,Party,Streamline Games,Streamline Games,2025-03-27
+159,Bakutsuri hunters,Sports,Bandai Namco Studios,Bandai Namco Entertainment,2025-03-27
+160,Baldur's gate: enhanced edition,Role-playing,Beamdog,Skybound Games,2019-10-15
+161,Baldur's gate ii: enhanced edition,Role-playing,Beamdog,Skybound Games,2019-10-15
+162,Baldur's gate: siege of dragonspear,Role-playing,Beamdog,Skybound Games,2019-09-24
+163,Balthazar's dream,Platformer,Dolores Entertainment,Dolores Entertainment,2019-11-14
+164,Ball attraction,Adventure,Rising Win Tech,Rising Win Tech,2019-09-19
+165,The banner saga,Role-playing,Stoic Studio,Versus Evil,2018-05-17
+166,The banner saga 2,Role-playing,Stoic Studio,Versus Evil,2018-06-07
+167,The banner saga 3,Role-playing,Stoic Studio,Versus Evil,2018-07-26
+168,Baobabs mausoleum ep.1: ovnifagos don't eat flamingos,"Adventure, point and click",Celery Emblem,Zerouno Games,2018-05-24
+169,Baobabs mausoleum ep.2: 1313 barnabas dead end drive,Adventure,Celery Emblem,Zerouno Games,2019-06-27
+170,Barbarous: tavern of emyr,Adventure,SQRT3,QubicGames,2019-12-25
+171,Bard's gold,Platformer,Pixel Lantern,Pixel Lantern,2019-03-05
+172,Baseball riot,"Puzzle, sports",10tons,10tons,2018-01-19
+173,Bass pro shops: the strike championship edition,Sports,Saber Interactive,Planet Entertainment,2018-10-23
+174,Bastion,Puzzle,Desconocido,Supergiant Games,2018-09-13
+175,Batman: the enemy within,Adventure,Desconocido,Telltale Games,2018-10-02
+176,Batman: the telltale series,Adventure,Telltale Games,Telltale Games,2017-11-14
+177,Battery jam,Action,Halseo,Halseo,2018-11-22
+178,Battlezone: gold edition,Shooter,Rebellion Developments,Rebellion Developments,2018-11-08
+179,Battle chasers: nightwar,Role-playing,Airship Syndicate,THQ Nordic,2018-05-15
+180,Battle chef brigade,Action role-playing,Trinket Studios,Adult Swim Games,2017-11-20
+181,Battle & crash,Arcade,Sims,Starsign,2019-07-18
+182,Battle group 2,Strategy,Merge Games,Merge Games,2018-10-11
+183,Battle princess madelyn,Platformer,Causal Bit Games,Causal Bit Games,2018-12-20
+184,Battle worlds: kronos,Turn-based strategy,King Art,THQ Nordic,2019-06-11
+185,Battlloon,Party,noname studio,Sony Music Entertainment,2019-02-28
+186,Bayala: the game,Adventure,Ink Stains Games,HypeTrain Digital,2019-03-05
+187,Bayonetta,Hack and slash,PlatinumGames,Nintendo,2018-02-16
+188,Bayonetta 2,Hack and slash,PlatinumGames,Nintendo,2018-02-16
+189,Bayonetta 3,Hack and slash,PlatinumGames,Nintendo,2025-03-27
+190,Beach buggy racing,Kart racing,Vector Unit,Vector Unit,2017-09-14
+191,Bear with me,"Adventure, point and click",Exordium Games,Exordium Games,2019-07-09
+192,Bear with me: the lost robots,"Adventure, point and click",Exordium Games,Exordium Games,2019-07-31
+193,Beast quest,Action role-playing,Torus Games,Maximum Games,2019-10-11
+194,Beat cop,Adventure,Michael Hicks,11 Bit Studios,2019-03-05
+195,Bee simulator,Simulation,Varsav Games,Varsav Games,2019-11-14
+196,Bendy and the ink machine,Survival horror,TheMeatly Games,Rooster Teeth Games,2018-11-20
+197,Best friend forever,Simulation,Steve Jackson Games,Asmodee,2020-02-14
+198,Beyblade burst battle zero,Action,FuRyu,FuRyu,2025-03-27
+199,Beyond enemy lines: covert operations,First-person shooter,Polygon Art,Polygon Art,2019-04-23
+200,Beyond a steel sky,Adventure,Revolution Software,Revolution Software,2025-03-27
