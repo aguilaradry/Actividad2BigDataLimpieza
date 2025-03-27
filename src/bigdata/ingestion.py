@@ -26,7 +26,7 @@ class Ingestion:
             data = response.json()
             
             juegos_procesados = []
-            for game in data[:100]:  # Limitamos a 100 juegos
+            for game in data[:200]:  # Limitamos a 100 juegos
                 juegos_procesados.append({
                     "id": game.get("id", "N/A"),
                     "nombre": str(game.get("name", "Desconocido")),  
