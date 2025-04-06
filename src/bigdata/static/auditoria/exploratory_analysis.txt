@@ -20,17 +20,17 @@ publicadores         object
 fecha_lanzamiento    object
 
 Resumen estadístico:
-                id       nombre  ... publicadores fecha_lanzamiento
-count   220.000000          220  ...          220               220
-unique         NaN          200  ...          151               145
-top            NaN  60 Seconds!  ...     Nintendo        Unreleased
-freq           NaN            2  ...            8                 7
-mean     99.468182          NaN  ...          NaN               NaN
-std      57.582214          NaN  ...          NaN               NaN
-min       1.000000          NaN  ...          NaN               NaN
-25%      50.750000          NaN  ...          NaN               NaN
-50%      97.500000          NaN  ...          NaN               NaN
-75%     149.250000          NaN  ...          NaN               NaN
-max     200.000000          NaN  ...          NaN               NaN
+                id                    nombre  ... publicadores fecha_lanzamiento
+count   220.000000                       220  ...          220               220
+unique         NaN                       200  ...          151               145
+top            NaN  Achtung! Cthulhu Tactics  ...     Nintendo        Unreleased
+freq           NaN                         2  ...            9                 7
+mean    101.004545                       NaN  ...          NaN               NaN
+std      57.887901                       NaN  ...          NaN               NaN
+min       1.000000                       NaN  ...          NaN               NaN
+25%      51.750000                       NaN  ...          NaN               NaN
+50%     100.500000                       NaN  ...          NaN               NaN
+75%     151.250000                       NaN  ...          NaN               NaN
+max     200.000000                       NaN  ...          NaN               NaN
 
 [11 rows x 6 columns]
